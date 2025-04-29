@@ -1,0 +1,87 @@
+.landing-container {
+    height: 100vh;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .landing-content {
+    text-align: center;
+    background-color: rgba(241, 237, 237, 0.95);
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 600px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  .landing-content h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #1e3c72;
+  }
+  
+  .landing-content p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .button-group button {
+    padding: 14px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .button-group button:first-child {
+    background-color: #fbbc04; 
+    color: #222;
+  }
+  
+  .button-group button:first-child:hover {
+    background-color: #f1b600; 
+  }
+  
+
+  .button-group button:nth-child(2) {
+    background-color: #7e2ba5; 
+    color: #fff;
+  }
+  
+  .button-group button:nth-child(2):hover {
+    background-color: #a200ff; 
+  }
+  
+  .button-group button:last-child {
+    background-color: #1e88e5; 
+    color: rgb(243, 229, 229);
+  }
+  
+  .button-group button:last-child:hover {
+    background-color: #1565c0; 
+  }
+  
+  @media (min-width: 600px) {
+    .button-group {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .button-group button {
+      width: 200px;
+    }
+  }
+  
